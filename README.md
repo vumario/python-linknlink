@@ -1,7 +1,7 @@
 ## Notice
 
 I have moved the official repository from the former developer's [repository](https://github.com/linknlink/linknlink-local)
-to the my personal one [personal one](https://github.com/alex-ong/linknlink-local).
+to the my personal one [personal one](https://github.com/vumario/linknlink-local).
 
 Please update your bookmarks and use the official repository for the latest updates and issues.
 
