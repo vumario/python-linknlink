@@ -32,8 +32,10 @@ class LinknLinkCoordinator(DataUpdateCoordinator[dict[str, Any]]):
     api: llk.Device
     config_entry: ConfigEntry
 
-    def __init__(self, hass: HomeAssistant, mac: str) -> None:
+    def __init__(self, hass: HomeAssistant, config_entry: ConfigEntry) -> None:
         """Initialize the data service."""
+        self.config_entry = config_entry
+        mac = config_entry.data[CONF_MAC]
         super().__init__(
             hass,
             _LOGGER,
