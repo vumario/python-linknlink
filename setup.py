@@ -13,7 +13,7 @@ setup(
     author="Zhao Zehua",
     author_email="huahua.zzh@gmail.com",
     url="https://github.com/xuanxuan000/python-linknlink",
-    packages=find_packages(),
+    packages=find_packages(include=["linknlink", "linknlink.*"]),
     scripts=[],
     install_requires=["cryptography>=3.2"],
     description="Python API for controlling linknlink devices",
